@@ -5,7 +5,7 @@ import Button from '@material-ui/core/Button';
 import {Link} from 'react-router-dom';
 import {Logo} from '../ui/icons'
 
-class Header extends Component {
+class Navigation extends Component {
   render() {
     return(
       <AppBar
@@ -36,6 +36,10 @@ class Header extends Component {
             <Link to="/the_matches">
               <Button color="inherit">Matches</Button>
             </Link>
+
+            <Link to="/sign_in">
+              <Button color="inherit">Admin</Button>
+            </Link>
           </Toolbar>
 
       </AppBar>
@@ -43,4 +47,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Navigation;
