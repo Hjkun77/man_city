@@ -45,7 +45,7 @@ class Enroll extends Component {
         this.setState({
             formError: false,
             formData: newFormdata
-        })
+        });
     }
 
     resetFormSuccess(type){
